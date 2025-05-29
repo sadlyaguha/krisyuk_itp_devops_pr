@@ -38,7 +38,7 @@ upstream backend {
 # Задание Мониторинг (Prometheus+Grafana)
 В качестве основы было взято небольшое приложение на языке Pyhton
 Для мониторинга и алертинга был выбран стек Prometheus+Grafana+Loki+Promtail. Были созданы файлы docker-compose.yml, loki-config.yml, prometheus.yml. С помощью команды docker compose up был запущен проект.
-![m1](/images/m1.png)<br>
+<br>![m1](/images/m1.png)<br>
 Рисунок 1 – Данные на странице http://localhost:8080/
 
 ![m2](/images/m2.png)<br>
